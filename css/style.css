@@ -1,0 +1,46 @@
+.master {                                       /* Elemento padre de todos los divs */
+    display: flex;
+    flex-direction: column;
+}
+
+.div {                                          /* Este div representa el header y el footer */
+    height: 8.8em;
+    width: 104em;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.separacion {                                   /* Este div separa, el header y el footer de la nintendo */
+    background-color: whitesmoke;
+    height: 40em;
+    width: 104em;
+}
+
+.nintendo {                                     /* Este div es el elemento padre de todos los divs que haré en la nintendo */
+    height: 35em;
+    width: 104em;
+    background-color: white;
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
+    height: 10em;
+    width: 10em;
+    background-color: red;
+}
+
+.carcasaExterior {                              /* Este div es el elemento padre de la pantalla */
+    height: 10em;
+    width: 10em;
+    background-color:  black
+}
+
+.controladorDerecho {                           /* Este div es el elemento padre de todos los divs del controlador derecho */
+    height: 10em;
+    width: 10em;
+    background-color:  lightskyblue;
+}
+
