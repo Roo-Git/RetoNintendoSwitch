@@ -27,20 +27,46 @@
 }
 
 .controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
-    height: 10em;
+    height: 22em;
     width: 10em;
-    background-color: red;
+    background-color: lightblue;
+    margin-top: 5em;
+    border-radius: 6em 0em 0em 6em;
 }
 
 .carcasaExterior {                              /* Este div es el elemento padre de la pantalla */
-    height: 10em;
-    width: 10em;
-    background-color:  black
+    height: 22em;
+    width: 40em;
+    background-color: grey;
+    margin-top: 5em;
+    border-radius: 2em 2em 0em 0em;
+    display: flex;
+    flex-direction: row;
+}
+
+.bordePantalla {
+    height: 20em;
+    width: 37em;
+    background-color: black;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.pantalla {
+    height: 17em;
+    width: 32em;
+    background-color: lightgrey;
+    margin-top: 1.5em;
+    margin-left: 2.5em;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
 }
 
 .controladorDerecho {                           /* Este div es el elemento padre de todos los divs del controlador derecho */
-    height: 10em;
+    height: 22em;
     width: 10em;
-    background-color:  lightskyblue;
+    background-color:  red;
+    margin-top: 5em;
+    border-radius: 0em 6em 6em 0em;
 }
 
