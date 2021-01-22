@@ -49,7 +49,7 @@
 .parcheControladorIzq {
     height: 1em;
     width: 2em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
     position: fixed;
     margin-top: 5em;
     margin-right: 42em;
@@ -59,7 +59,7 @@
 .parcheControladorDer {
     height: 1em;
     width: 2em;
-    background-color: red;
+    background-color: #f15a4f;
     position: fixed;
     margin-top: 5em;
     margin-left: 42em;
@@ -114,7 +114,7 @@
 .controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
     height: 22em;
     width: 10em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
     margin-top: 5em;
     border-radius: 6em 0em 0em 6em;
     display: flex;
@@ -124,7 +124,7 @@
 .contenedorSimboloMenos {
     height: 4em;
     width: 10em;
-    background-color:  lightblue;
+    background-color: #0ab9d9;
     display: flex;
     border-radius: 6em 0em 0em 0em;
     border-top: 0.5em solid #1d2528;
@@ -142,7 +142,7 @@
 .contenedorJoystickIzq {
     height: 4.5em;
     width: 10em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
     display: flex;
 }
 
@@ -161,7 +161,7 @@
 .contenedorCruzetaAzul {        /* Contenedor padre de la cruzetaAzulUno a la Nueve*/
     height: 6em;
     width: 6em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
     margin-left: 1.9em;
     display: grid;
     grid-template-columns: 2em 2em 2em;
@@ -170,7 +170,7 @@
 .cruzetaAzulUno {
     height: 2em;
     width: 2em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
 }
 
 .cruzetaAzulDos {
@@ -183,7 +183,7 @@
 .cruzetaAzulTres {
     height: 2em;
     width: 2em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
 }
 
 .cruzetaAzulCuatro {
@@ -196,7 +196,7 @@
 .cruzetaAzulCinco {
     height: 2em;
     width: 2em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
 }
 
 .cruzetaAzulSeis {
@@ -209,7 +209,7 @@
 .cruzetaAzulSiete {
     height: 2em;
     width: 2em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
 }
 
 .cruzetaAzulOcho {
@@ -222,14 +222,14 @@
 .cruzetaAzulNueve {
     height: 2em;
     width: 2em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
 }
 
 
 .contenedorBotonSelect {
     height: 7em;
     width: 10em;
-    background-color: lightblue;
+    background-color: #0ab9d9;
     display: flex;
     border-radius: 0em 0em 0em 6em;
 }
@@ -273,7 +273,7 @@
 .controladorDerecho {                           /* Este div es el elemento padre de todos los divs del controlador derecho */
     height: 22em;
     width: 10em;
-    background-color: red;
+    background-color: #f15a4f;
     margin-top: 5em;
     border-radius: 0em 6em 6em 0em;
     display: flex;
@@ -283,7 +283,7 @@
 .contenedorSimboloMas {
     height: 5em;
     width: 10em;
-    background-color: red;
+    background-color: #f15a4f;
     display: flex;
     border-radius: 0em 6em 0em 0em;
     border-top: 0.5em solid #1d2528;
@@ -302,7 +302,7 @@
 .simboloMasUno {
     height: 0.4em;
     width: 0.4em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .simboloMasDos {
@@ -314,7 +314,7 @@
 .simboloMasTres {
     height: 0.4em;
     width: 0.4em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .simboloMasCuatro {
@@ -338,7 +338,7 @@
 .simboloMasSiete {
     height: 0.4em;
     width: 0.4em;
-    background-color: red;
+    background-color: #f15a4f;
 
 }
 
@@ -351,13 +351,13 @@
 .simboloMasNueve {
     height: 0.4em;
     width: 0.4em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .contenedorCruzetaRoja {            /*Este es el contenedor padre de CruzetaRojaX hasta la Nueve */
     height: 6em;
     width: 6em;
-    background-color: red;
+    background-color: #f15a4f;
     margin-left: 1.6em;
     display: grid;
     grid-template-columns: 2em 2em 2em;
@@ -368,7 +368,7 @@
 .cruzetaRojaUno {
     height: 2em;
     width: 2em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .cruzetaRojaDos {
@@ -385,7 +385,7 @@
 .cruzetaRojaTres {
     height: 2em;
     width: 2em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .cruzetaRojaCuatro {
@@ -402,7 +402,7 @@
 .cruzetaRojaCinco {
     height: 2em;
     width: 2em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .cruzetaRojaSeis {
@@ -419,7 +419,7 @@
 .cruzetaRojaSiete {
     height: 2em;
     width: 2em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .cruzetaRojaOcho {
@@ -436,7 +436,7 @@
 .cruzetaRojaNueve {
     height: 2em;
     width: 2em;
-    background-color: red;
+    background-color: #f15a4f;
 }
 
 .joystickDer {
