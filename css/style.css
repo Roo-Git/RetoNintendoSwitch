@@ -39,9 +39,9 @@
 .contenedorSimboloMenos {
     height: 4em;
     width: 10em;
-    background-color:  lightblue;
+    background-color: lightblue;
     display: flex;
-    border-radius: 6em 0em 0em 0em;;
+    border-radius: 6em 0em 0em 0em;
     border-top: 0.5em solid black;
 }
 
@@ -188,17 +188,28 @@
 .controladorDerecho {                           /* Este div es el elemento padre de todos los divs del controlador derecho */
     height: 22em;
     width: 10em;
-    background-color:  red;
+    background-color: red;
     margin-top: 5em;
     border-radius: 0em 6em 6em 0em;
     display: flex;
+    flex-direction: column;
 }
 
-/*.contenedorSimboloMas {                          Este div es el contenedor padre de todos los divs .simboloMasX 
+.contenedorSimboloMas {
+    height: 5em;
+    width: 10em;
+    background-color: red;
+    display: flex;
+    border-radius: 0em 6em 0em 0em;
+    border-top: 0.5em solid black;
+
+}
+
+.simboloMas {                          /*Este div es el contenedor padre de todos los divs .simboloMasX */
     height: 1.2em;
     width: 1.2em;
     background-color: white;
-    margin-top: 1.3em;
+    margin-top: 1.6em;
     margin-left: 0.6em;
     display: grid;
     grid-template-columns: 0.4em 0.4em 0.4em;
@@ -257,4 +268,94 @@
     height: 0.4em;
     width: 0.4em;
     background-color: red;
-} */
+}
+
+.contenedorCruzetaRoja {            /*Este es el contenedor padre de CruzetaRojaX hasta la Nueve */
+    height: 6em;
+    width: 6em;
+    background-color: red;
+    margin-left: 1.6em;
+    display: grid;
+    grid-template-columns: 2em 2em 2em;
+    position: fixed;
+    margin-top: 3.6em
+}
+
+.cruzetaRojaUno {
+    height: 2em;
+    width: 2em;
+    background-color: red;
+}
+
+.cruzetaRojaDos {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaRojaTres {
+    height: 2em;
+    width: 2em;
+    background-color: red;
+}
+
+.cruzetaRojaCuatro {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaRojaCinco {
+    height: 2em;
+    width: 2em;
+    background-color: red;
+}
+
+.cruzetaRojaSeis {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaRojaSiete {
+    height: 2em;
+    width: 2em;
+    background-color: red;
+}
+
+.cruzetaRojaOcho {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaRojaNueve {
+    height: 2em;
+    width: 2em;
+    background-color: red;
+}
+
+.joystickDer {
+    height: 3.5em;
+    width: 3.5em;
+    background-color: black;
+    margin-top: 5.5em;
+    margin-right: 1em;
+    border-radius: 2em 2em 2em 2em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.botonHome {
+    height: 1.9em;
+    width: 1.9em;
+    background-color: black;
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    margin-top: 0.9em;
+    margin-left: 2em;
+}
