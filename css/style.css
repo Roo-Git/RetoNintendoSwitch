@@ -65,6 +65,52 @@
     margin-left: 42em;
     border-radius: 0em 0em 0em 0.6em;
 }
+
+.trianguloArriba {
+    width: 0;
+    height: 0;
+    border-right: 0.4em solid transparent;
+    border-left: 0.4em solid transparent;
+    border-bottom: 0.6em solid black;
+    position: fixed;
+    margin-top: 14.6em;
+    margin-right: 50.3em;
+}
+
+.trianguloAbajo {
+    width: 0;
+    height: 0;
+    border-right: 0.4em solid transparent;
+    border-left: 0.4em solid transparent;
+    border-top: 0.6em solid black;
+    position: fixed;
+    margin-top: 18.8em;
+    margin-right: 50.3em;
+}
+
+.trianguloIzquierdo {
+    width: 0;
+    height: 0;
+    border-top: 0.4em solid transparent;
+    border-bottom: 0.4em solid transparent;
+    border-right: 0.6em solid black;
+    position: fixed;
+    margin-top: 16.6em;
+    margin-right: 54.5em;
+}
+
+.trianguloDerecho {
+    width: 0;
+    height: 0;
+    border-top: 0.4em solid transparent;
+    border-bottom: 0.4em solid transparent;
+    border-left: 0.6em solid black;
+    position: fixed;
+    margin-top: 16.6em;
+    margin-right: 46em;
+}
+
+
 .controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
     height: 22em;
     width: 10em;
@@ -81,13 +127,13 @@
     background-color:  lightblue;
     display: flex;
     border-radius: 6em 0em 0em 0em;
-    border-top: 0.5em solid black;
+    border-top: 0.5em solid #1d2528;
 }
 
 .botonMenos {
     height: 0.5em;
     width: 1.5em;
-    background-color: black;
+    background-color: #1d2528;
     margin-top: 2em;
     margin-left: 7.8em;
     border-radius: 1em 1em 1em 1em;
@@ -103,7 +149,7 @@
 .joystickIzq {
     height: 3.5em;
     width: 3.5em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 2em 2em 2em 2em;
     display: flex;
     justify-content: center;
@@ -130,7 +176,7 @@
 .cruzetaAzulDos {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color:  #1d2528;
     border-radius: 1em 1em 1em 1em;
 }
 
@@ -143,7 +189,7 @@
 .cruzetaAzulCuatro {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
 }
 
@@ -156,7 +202,7 @@
 .cruzetaAzulSeis {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
 }
 
@@ -169,7 +215,7 @@
 .cruzetaAzulOcho {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
 }
 
@@ -191,7 +237,7 @@
 .botonSelect {
     height: 1.5em;
     width: 1.5em;
-    background-color: black;
+    background-color: #1d2528;
     margin-left: 6em;
     margin-top: 0.7em;
 }
@@ -240,7 +286,7 @@
     background-color: red;
     display: flex;
     border-radius: 0em 6em 0em 0em;
-    border-top: 0.5em solid black;
+    border-top: 0.5em solid #1d2528;
 
 }
 
@@ -262,7 +308,7 @@
 .simboloMasDos {
     height: 0.4em;
     width: 0.4em;
-    background-color: black;
+    background-color: #1d2528;
 }
 
 .simboloMasTres {
@@ -274,19 +320,19 @@
 .simboloMasCuatro {
     height: 0.4em;
     width: 0.4em;
-    background-color: black;
+    background-color: #1d2528;
 }
 
 .simboloMasCinco {
     height: 0.4em;
     width: 0.4em;
-    background-color: black;
+    background-color: #1d2528;
 }
 
 .simboloMasSeis {
     height: 0.4em;
     width: 0.4em;
-    background-color: black;
+    background-color: #1d2528;
 }
 
 .simboloMasSiete {
@@ -299,7 +345,7 @@
 .simboloMasOcho {
     height: 0.4em;
     width: 0.4em;
-    background-color: black;
+    background-color: #1d2528;
 }
 
 .simboloMasNueve {
@@ -328,7 +374,7 @@
 .cruzetaRojaDos {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
     display: grid;
     justify-content: center;
@@ -345,7 +391,7 @@
 .cruzetaRojaCuatro {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
     display: grid;
     justify-content: center;
@@ -362,7 +408,7 @@
 .cruzetaRojaSeis {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
     display: grid;
     justify-content: center;
@@ -379,7 +425,7 @@
 .cruzetaRojaOcho {
     height: 2em;
     width: 2em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 1em 1em 1em 1em;
     display: grid;
     justify-content: center;
@@ -396,7 +442,7 @@
 .joystickDer {
     height: 3.5em;
     width: 3.5em;
-    background-color: black;
+    background-color: #1d2528;
     margin-top: 5.5em;
     margin-right: 1em;
     border-radius: 2em 2em 2em 2em;
@@ -408,7 +454,7 @@
 .botonHome {
     height: 1.9em;
     width: 1.9em;
-    background-color: black;
+    background-color: #1d2528;
     border-radius: 0.9em 0.9em 0.9em 0.9em;
     margin-top: 0.9em;
     margin-left: 2em;
