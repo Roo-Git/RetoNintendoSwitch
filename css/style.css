@@ -33,6 +33,16 @@
     margin-top: 5em;
     border-radius: 6em 0em 0em 6em;
     display: flex;
+    flex-direction: column;
+}
+
+.contenedorSimboloMenos {
+    height: 4em;
+    width: 10em;
+    background-color:  lightblue;
+    display: flex;
+    border-radius: 6em 0em 0em 0em;;
+    border-top: 0.5em solid black;
 }
 
 .botonMenos {
@@ -42,6 +52,101 @@
     margin-top: 2em;
     margin-left: 7.8em;
     border-radius: 1em 1em 1em 1em;
+} 
+
+.contenedorJoystickIzq {
+    height: 4.5em;
+    width: 10em;
+    background-color: lightblue;
+    display: flex;
+}
+
+.joystickIzq {
+    height: 3.5em;
+    width: 3.5em;
+    background-color: black;
+    border-radius: 2em 2em 2em 2em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+.contenedorCruzetaAzul {        /* Contenedor padre de la cruzetaAzulUno a la Nueve*/
+    height: 6em;
+    width: 6em;
+    background-color: lightblue;
+    margin-left: 1.9em;
+    display: grid;
+    grid-template-columns: 2em 2em 2em;
+}
+
+.cruzetaAzulUno {
+    height: 2em;
+    width: 2em;
+    background-color: lightblue;
+}
+
+.cruzetaAzulDos {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaAzulTres {
+    height: 2em;
+    width: 2em;
+    background-color: lightblue;
+}
+
+.cruzetaAzulCuatro {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaAzulCinco {
+    height: 2em;
+    width: 2em;
+    background-color: lightblue;
+}
+
+.cruzetaAzulSeis {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaAzulSiete {
+    height: 2em;
+    width: 2em;
+    background-color: lightblue;
+}
+
+.cruzetaAzulOcho {
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.cruzetaAzulNueve {
+    height: 2em;
+    width: 2em;
+    background-color: lightblue;
+}
+
+
+.contenedorBotonSelect {
+    height: 7em;
+    width: 10em;
+    background-color: lightblue;
+    display: flex;
+    border-radius: 0em 0em 0em 6em;
 }
 
 .carcasaExterior {                              /* Este div es el elemento padre de la pantalla */
@@ -81,7 +186,7 @@
     display: flex;
 }
 
-.contenedorSimboloMas {
+/*.contenedorSimboloMas {                          Este div es el contenedor padre de todos los divs .simboloMasX 
     height: 1.2em;
     width: 1.2em;
     background-color: white;
@@ -89,7 +194,7 @@
     margin-left: 0.6em;
     display: grid;
     grid-template-columns: 0.4em 0.4em 0.4em;
-}
+} 
 
 .simboloMasUno {
     height: 0.4em;
@@ -144,4 +249,4 @@
     height: 0.4em;
     width: 0.4em;
     background-color: red;
-}
+} */
