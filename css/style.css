@@ -32,6 +32,16 @@
     background-color: lightblue;
     margin-top: 5em;
     border-radius: 6em 0em 0em 6em;
+    display: flex;
+}
+
+.botonMenos {
+    height: 0.5em;
+    width: 1.5em;
+    background-color: black;
+    margin-top: 2em;
+    margin-left: 7.8em;
+    border-radius: 1em 1em 1em 1em;
 }
 
 .carcasaExterior {                              /* Este div es el elemento padre de la pantalla */
@@ -68,5 +78,70 @@
     background-color:  red;
     margin-top: 5em;
     border-radius: 0em 6em 6em 0em;
+    display: flex;
 }
 
+.contenedorSimboloMas {
+    height: 1.2em;
+    width: 1.2em;
+    background-color: white;
+    margin-top: 1.3em;
+    margin-left: 0.6em;
+    display: grid;
+    grid-template-columns: 0.4em 0.4em 0.4em;
+}
+
+.simboloMasUno {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: red;
+}
+
+.simboloMasDos {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+
+.simboloMasTres {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: red;
+}
+
+.simboloMasCuatro {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+
+.simboloMasCinco {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+
+.simboloMasSeis {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+
+.simboloMasSiete {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: red;
+
+}
+
+.simboloMasOcho {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: black;
+}
+
+.simboloMasNueve {
+    height: 0.4em;
+    width: 0.4em;
+    background-color: red;
+}
