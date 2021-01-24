@@ -140,6 +140,19 @@
     border-radius: 5em 5em 5em 5em;
 }
 
+.imagenHome {
+    width: 1.9em;
+    height: 1.9em;
+    background-color:  #1d2528;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/nintendo-switch-pack-1/64/ico-nsw-bttn-home-512.png);
+    background-size: cover;
+    position: absolute;
+    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    margin-top: 20.5em;
+    margin-left: 46.1em;
+
+}
+
 .controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
     height: 22em;
     width: 10em;
@@ -513,10 +526,10 @@
 }
 
 .botonHome {
-    height: 1.9em;
-    width: 1.9em;
-    background-color: #1d2528;
-    border-radius: 0.9em 0.9em 0.9em 0.9em;
+    height: 2.1em;
+    width: 2.1em;
+    background-color: grey;
+    border-radius: 1em 1em 1em 1em;
     margin-top: 0.9em;
     margin-left: 2em;
 }
