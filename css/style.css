@@ -110,6 +110,35 @@
     margin-right: 46em;
 }
 
+.botonSuperiorPantalla{
+    width: 2em;
+    height: 0.09em;
+    position: absolute;
+    margin-top: 4.9em;
+    margin-right: 25em;
+    background-color: #1d2528;
+
+}
+
+.botonSuperiorPantallaIzquierda {
+    width: 1em;
+    height: 0.2em;
+    position: absolute;
+    margin-top: 4.8em;
+    margin-right: 27em;
+    background-color: #1d2528;
+    border-radius: 5em 5em 5em 5em;
+}
+
+.botonSuperiorPantallaDerecha {
+    width: 1em;
+    height: 0.2em;
+    position: absolute;
+    margin-top: 4.8em;
+    margin-right: 23em;
+    background-color: #1d2528;
+    border-radius: 5em 5em 5em 5em;
+}
 
 .controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
     height: 22em;
