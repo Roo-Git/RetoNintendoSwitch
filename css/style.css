@@ -6,12 +6,14 @@
 .div {                                          /* Este div representa el header y el footer */
     height: 8.8em;
     width: 104em;
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
+    justify-content: center;
+    font-family: sans-serif;
 }
 
 .separacion {                                   /* Este div separa, el header y el footer de la nintendo */
-    background-color: whitesmoke;
+    background-color: white;
     height: 40em;
     width: 104em;
 }
@@ -153,6 +155,16 @@
 
 }
 
+.circuloSelect {
+    height: 1em;
+    width: 1em;
+    background-color: black;
+    position: absolute;
+    border-radius: 1em;
+    margin-top: 20.95em;
+    margin-right: 46.5em;
+}
+
 .controladorIzquierdo {                         /* Este div es el elemento padre de todos los divs del controlador izquierdo */
     height: 22em;
     width: 10em;
@@ -192,7 +204,7 @@
     height: 3.5em;
     width: 3.5em;
     background-color: #1d2528;
-    border-radius: 2em 2em 2em 2em;
+    border-radius: 2em;
     display: flex;
     justify-content: center;
     align-self: center;
